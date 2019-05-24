@@ -1,0 +1,24 @@
+name: sidekiq
+version: 0.1.0
+
+# authors:
+#   - name <email@example.com>
+
+# description: |
+#   Short description of sidekiq
+
+# dependencies:
+#   pg:
+#     github: will/crystal-pg
+#     version: "~> 0.5"
+
+# development_dependencies:
+#   webmock:
+#     github: manastech/webmock.cr
+
+dependencies:
+  sidekiq:
+    github: mperham/sidekiq.cr
+    branch: master
+
+# license: MIT

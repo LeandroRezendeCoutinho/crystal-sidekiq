@@ -4,6 +4,6 @@ require "sidekiq"
 # See the Configuration page for how to point to a custom Redis location.
 Sidekiq::Client.default_context = Sidekiq::Client::Context.new
 
-1..100000.times do
-  Sample::MyWorker.async.perform("world", 1)
+1..1_000_000.times do |n|
+  Sample::MyWorker.async.perform("Job", n)
 end

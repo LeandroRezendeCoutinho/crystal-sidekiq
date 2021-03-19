@@ -1,42 +1,50 @@
-version: 1.0
+version: 2.0
 shards:
   baked_file_system:
-    github: schovi/baked_file_system
-    commit: e1447549d5ac0560720fae62179b2f2c62c9bfd1
+    git: https://github.com/schovi/baked_file_system.git
+    version: 0.9.8+git.commit.7183bfde8d86a976a6912f582b51cbd1783456af
+
+  db:
+    git: https://github.com/crystal-lang/crystal-db.git
+    version: 0.10.0
 
   exception_page:
-    github: crystal-loot/exception_page
-    version: 0.1.2
+    git: https://github.com/crystal-loot/exception_page.git
+    version: 0.1.4
+
+  json_mapping:
+    git: https://github.com/crystal-lang/json_mapping.cr.git
+    version: 0.1.0
 
   kemal:
-    github: kemalcr/kemal
-    commit: 5267555322bf17376bb262fa881d915abbe7f5b3
+    git: https://github.com/kemalcr/kemal.git
+    version: 0.27.0
 
   kemal-csrf:
-    github: kemalcr/kemal-csrf
-    version: 0.5.0
+    git: https://github.com/kemalcr/kemal-csrf.git
+    version: 0.7.0
 
   kemal-session:
-    github: kemalcr/kemal-session
-    commit: a16f164d3dcfc6e720d566f9085285abdd5b7825
+    git: https://github.com/kemalcr/kemal-session.git
+    version: 0.12.1
 
   kilt:
-    github: jeromegn/kilt
+    git: https://github.com/jeromegn/kilt.git
     version: 0.4.0
 
   pool:
-    github: ysbaddaden/pool
+    git: https://github.com/ysbaddaden/pool.git
     version: 0.2.3
 
   radix:
-    github: luislavena/radix
+    git: https://github.com/luislavena/radix.git
     version: 0.3.9
 
   redis:
-    github: stefanwille/crystal-redis
-    version: 2.2.0
+    git: https://github.com/stefanwille/crystal-redis.git
+    version: 2.6.0
 
   sidekiq:
-    github: mperham/sidekiq.cr
-    commit: 04a23a3aede9fba9c3a81c9d1cd13f30aff148e9
+    git: https://github.com/mperham/sidekiq.cr.git
+    version: 0.7.0+git.commit.3d9c85b167bca4ab4b27a42d2623436f54e0169b
 
